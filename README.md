@@ -1,0 +1,1 @@
+SpringPulse is a Spring Boot benchmarking and stress-testing project aimed at optimizing Spring MVC apps under high load. It simulates heavy traffic to assess how configurations, threading models, and request handling perform under pressure—helping developers fine-tune latency, boost stability, and scale effectively.
