@@ -27,7 +27,7 @@ public class ForgeHammerSimulation extends Simulation {
         // Set up the simulation to achieve 1,500 RPS for 1 minute
         setUp(
                 scn.injectOpen(
-                        constantUsersPerSec(400).during(Duration.ofMinutes(1))
+                        constantUsersPerSec(500).during(Duration.ofMinutes(1))
                 )
         ).protocols(httpProtocol);
     }
