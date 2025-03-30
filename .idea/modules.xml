@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringForge.iml" filepath="$PROJECT_DIR$/.idea/SpringForge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forge-hammer.iml" filepath="$PROJECT_DIR$/forge-hammer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-forge/spring-forge.iml" filepath="$PROJECT_DIR$/spring-forge/spring-forge.iml" />
     </modules>
   </component>

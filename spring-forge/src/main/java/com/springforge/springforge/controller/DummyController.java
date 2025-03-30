@@ -10,10 +10,13 @@ public class DummyController {
 
     @GetMapping("/dummy-response")
     public CompletableFuture<DummyResponse> getDummyResponse() {
-        return CompletableFuture.supplyAsync(() ->
-            new DummyResponse("Success", 200, "Spring-Forge is optimized!")
+        return CompletableFuture.supplyAsync(() -> {
+                    System.out.println("getDummyResponse");
+                    return new DummyResponse("Success", 200, "Spring-Forge is optimized!");
+                }
         );
     }
 
-    public record DummyResponse(String status, int code, String message) {}
+    public record DummyResponse(String status, int code, String message) {
+    }
 }

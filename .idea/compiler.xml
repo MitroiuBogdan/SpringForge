@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-forge" />
+        <module name="forge-hammer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="forge-hammer" target="11" />
       <module name="spring-forge" target="17" />
     </bytecodeTargetLevel>
   </component>
